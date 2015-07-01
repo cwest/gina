@@ -67,6 +67,7 @@ GEM
     puma (2.11.3)
       rack (>= 1.1, < 2.0)
     rack (1.6.4)
+    rake (10.4.2)
     rb-readline (0.5.3)
     read_it (0.0.2)
       faraday (>= 0.8.7)
@@ -98,6 +99,7 @@ DEPENDENCIES
   lita-google-images
   lita-karma
   lita-slack
+  rake
 
 BUNDLED WITH
    1.10.5
