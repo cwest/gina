@@ -48,4 +48,6 @@ Lita.configure do |config|
   # config.handlers.slack_karma_sync.user_term_normalizer = normalized_karma_user_term
 
   config.handlers.time.apikey = ENV["GINA_TIME_APIKEY"]
+
+  config.handlers.youtube_me.api_key = ENV["GINA_YOUTUBE_API_KEY"]
 end

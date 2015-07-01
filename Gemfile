@@ -31,3 +31,4 @@ gem "lita-location-decision"
 gem "lita-rules"
 # gem "lita-slack-karma-sync" # Isn't working?
 gem "lita-time"
+gem "lita-youtube-me"
