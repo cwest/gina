@@ -44,7 +44,8 @@ Lita.configure do |config|
     end
   end
 
-  config.handlers.slack_karma_sync.user_term_normalizer = normalized_karma_user_term
+  # Isn't working?
+  # config.handlers.slack_karma_sync.user_term_normalizer = normalized_karma_user_term
 
   config.handlers.time.apikey = ENV["GINA_TIME_APIKEY"]
 end
