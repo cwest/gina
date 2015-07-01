@@ -49,12 +49,22 @@ GEM
     lita-gems (1.1.0)
       gems (>= 0.8.0)
       lita (>= 2.6)
+    lita-giphy (1.0.2)
+      lita (>= 2.0)
     lita-google-images (2.0.0)
       lita (>= 4.0)
     lita-hal-9000 (0.1.1)
       lita (>= 4.0)
+    lita-hashtag (0.1.0)
+      lita (>= 4.1)
+    lita-how-many (0.1.0)
+      lita (>= 4.4)
     lita-karma (3.0.2)
       lita (>= 4.0)
+    lita-location-decision (0.0.3)
+      lita (>= 2.3)
+    lita-rules (0.0.1)
+      lita (>= 3.0)
     lita-slack (1.5.0)
       eventmachine
       faraday
@@ -98,9 +108,14 @@ DEPENDENCIES
   lita-eval
   lita-excuses
   lita-gems
+  lita-giphy
   lita-google-images
   lita-hal-9000
+  lita-hashtag
+  lita-how-many
   lita-karma
+  lita-location-decision
+  lita-rules
   lita-slack
   rake
 

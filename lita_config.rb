@@ -28,5 +28,7 @@ Lita.configure do |config|
   config.redis["port"]     = redis.fetch('port')
   config.redis["password"] = redis.fetch('password')
 
+  config.handlers.giphy.api_key = "dc6zaTOxFJmzC" # Public beta key
+
   config.handlers.karma.cooldown = nil
 end
