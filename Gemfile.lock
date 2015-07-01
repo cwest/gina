@@ -71,6 +71,10 @@ GEM
       faye-websocket (>= 0.8.0)
       lita (>= 4.4.2)
       multi_json
+    lita-slack-karma-sync (0.2.1)
+      lita (>= 4.2)
+      lita-karma (>= 3.0.2)
+      lita-slack (>= 1.2.0)
     mini_portile (0.6.2)
     multi_json (1.11.1)
     multipart-post (2.0.0)
@@ -117,6 +121,7 @@ DEPENDENCIES
   lita-location-decision
   lita-rules
   lita-slack
+  lita-slack-karma-sync
   rake
 
 BUNDLED WITH
