@@ -30,5 +30,19 @@ Lita.configure do |config|
 
   config.handlers.giphy.api_key = "dc6zaTOxFJmzC" # Public beta key
 
+  normalized_karma_user_term = ->(user_id, user_name) { "#{user_name}" }
+
   config.handlers.karma.cooldown = nil
+  config.handlers.karma.term_normalizer = lambda do |full_term|
+    term = full_term.to_s.strip.sub(/[<:]([^>:]+)[>:]/, '\1')
+    user = Lita::User.fuzzy_find(term.sub(/\A@/, ''))
+
+    if user
+      normalized_karma_user_term.call(user.id, user.name)
+    else
+      term.downcase
+    end
+  end
+
+  config.handlers.slack_karma_sync.user_term_normalizer = normalized_karma_user_term
 end
