@@ -49,6 +49,8 @@ GEM
     lita-gems (1.1.0)
       gems (>= 0.8.0)
       lita (>= 2.6)
+    lita-giphy (1.0.2)
+      lita (>= 2.0)
     lita-google-images (2.0.0)
       lita (>= 4.0)
     lita-hal-9000 (0.1.1)
@@ -98,6 +100,7 @@ DEPENDENCIES
   lita-eval
   lita-excuses
   lita-gems
+  lita-giphy
   lita-google-images
   lita-hal-9000
   lita-karma
