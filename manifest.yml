@@ -1,0 +1,7 @@
+---
+applications:
+- name: lita
+  memory: 128M
+  host: cwest-gina
+  command: bundle exec lita start
+  no-route: true
