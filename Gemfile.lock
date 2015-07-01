@@ -51,6 +51,8 @@ GEM
       lita (>= 2.6)
     lita-google-images (2.0.0)
       lita (>= 4.0)
+    lita-hal-9000 (0.1.1)
+      lita (>= 4.0)
     lita-karma (3.0.2)
       lita (>= 4.0)
     lita-slack (1.5.0)
@@ -97,6 +99,7 @@ DEPENDENCIES
   lita-excuses
   lita-gems
   lita-google-images
+  lita-hal-9000
   lita-karma
   lita-slack
   rake
