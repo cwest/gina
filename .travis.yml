@@ -5,8 +5,7 @@ bundler_args: --binstubs --retry=3 --jobs=3
 cache: bundler
 deploy:
   edge: true
-  provider:
-    provider: cloudfoundry
+  provider: cloudfoundry
   api:
     secure: E08aNsOgCGmff6J1ZR+UDtHMBjd1TjDVZo9OYrfw7LLZUMsla3aR4jUPW8opSn1cHqrpBVdJ24Z9+rmUvepWxl4rxUT7QKQ5NHv7hPIG2q/05BThnln82EKKCljkk+nrBozCjqhQ/7NXIFCHPmgU+HbK3DCt3FqEWyaw1qxawn4F/KsKWIKEOlyc4WtIIV2VyiRyne2ocKINi1m8GvGj707qBjAGgIc2lUW8LeYHxDWsPhz/FX+JaiFG7GHkxzzRaNDZauYJ9ShX6Sb9E+LyLZsRkNo5VoJ+6Z8bXOoAIoABdVE9lWrv1fIqYY0pBVf5mkwyiZl+gnW+0A9+Ru9T2++bh469qLSBIOIWPJhACLeAZXrcGlccJtvvXnPutEIlNl5RMLXuojLO38cQSXa73F345Wf4kGuwuczheFv9qW1sFe/25cDpKDH7EyZEe+MBAMMDyorj+zQOPIgm8rkZpsntGMVLap24d7x+HcCQOj+fdpW9DzCZk0Dpa+1cnY37wmRmWylVTrm9BgI+627m3oEU7ZCuHcbrqxIZ1KmfkObhOsdbOJOLZ/A4xLjXWi1My34QI0Gl4CWAwvfHRb5ZeIlNi9O+0YvJN1nwy08hcb5ufUyDLTCWMe5dqSL6mh0WYqRrhE9O3x3qhgv9xU7MnbpIn8WqgCVB4raQ4snMuI4=
   username:
