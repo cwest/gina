@@ -29,5 +29,5 @@ gem "lita-how-many"
 gem "lita-karma"
 gem "lita-location-decision"
 gem "lita-rules"
-gem "lita-slack-karma-sync"
+# gem "lita-slack-karma-sync" # Isn't working?
 gem "lita-time"
