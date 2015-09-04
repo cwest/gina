@@ -1,5 +1,5 @@
 language: ruby
-sudo: true
+sudo: false
 rvm:
 - 2.2.0
 bundler_args: --binstubs --retry=3 --jobs=3
