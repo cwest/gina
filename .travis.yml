@@ -1,7 +1,7 @@
 language: ruby
 sudo: false
 rvm:
-- 2.2.0
+- 2.2.3
 bundler_args: --binstubs --retry=3 --jobs=3
 cache: bundler
 deploy:
