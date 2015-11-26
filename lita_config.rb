@@ -34,9 +34,7 @@ Lita.configure do |config|
 
   config.handlers.karma.cooldown = nil
   # default term_pattern: /[\[\]\p{Word}\._|\{\}]{2,}/
-  # may try this pattern: /^@?(.*?)[: ]*(\+\+|--)\s*$/
-  # but first we'll try this pattern:
-  config.handlers.karma.term_pattern = /[<:][^>:]+[>:]/
+  config.handlers.karma.term_pattern = /^@?(.*?)[: ]*(\+\+|--)\s*$/
   config.handlers.karma.term_normalizer = lambda do |full_term|
     term = full_term.to_s.strip.sub(/[<:]([^>:]+)[>:]/, '\1')
     user = Lita::User.fuzzy_find(term.sub(/\A@/, ''))
