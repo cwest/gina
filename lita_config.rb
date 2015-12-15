@@ -52,4 +52,9 @@ Lita.configure do |config|
   config.handlers.time.apikey = ENV["GINA_TIME_APIKEY"]
 
   config.handlers.youtube_me.api_key = ENV["GINA_YOUTUBE_API_KEY"]
+
+  config.handlers.image_fetcher.pixabay_key = ENV["GINA_PIXABAY_KEY"]
+  config.handlers.image_fetcher.google_cse_key = ENV["GINA_GOOGLE_CSE_KEY"]
+  config.handlers.image_fetcher.google_cse_id = ENV["GINA_GOOGLE_CSE_ID"]
+  config.handlers.image_fetcher.bing_key = ENV["GINA_BING_KEY"]
 end
